@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib
-matplotlib.use('TkAgg')  # Backend для отображения окна
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
@@ -60,7 +60,6 @@ plt.title(f'Линейная регрессия: Salinity → Temperature\nR² =
 plt.legend(loc='best')
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
-plt.savefig('bottle_regression_plot.png', dpi=100)
 plt.show()
 
-print("График сохранён в bottle_regression_plot.png")
+print("График построен")
