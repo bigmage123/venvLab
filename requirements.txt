@@ -1,4 +1,9 @@
 dash==4.4.1
+jaraco-context==6.1.0
+jaraco-functools==4.4.0
+jaraco.text==4.0.0
 matplotlib==3.9.4
-pip==26.0.1
+pip-chill==1.0.3
+platformdirs==4.4.0
 scikit-learn==1.1.2
+tomli==2.4.0
